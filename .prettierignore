@@ -3,3 +3,4 @@
 *.jsx
 *.ts
 *.tsx
+*lock.yaml
