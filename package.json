@@ -26,7 +26,7 @@
     "build": "pnpm vite build",
     "dev": "pnpm vite",
     "format": "devtools/format.sh",
-    "setup": "pnpm install; pnpm run husky install",
+    "bootstrap": "pnpm install && pnpm husky install",
     "smoke": "pnpm vite preview --open",
     "ts": "pnpm tsc --watch --noEmit"
   }
