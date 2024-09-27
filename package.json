@@ -23,11 +23,11 @@
     "preact": "^10.11.0"
   },
   "scripts": {
-    "build": "yarn vite build",
-    "dev": "yarn vite",
+    "build": "pnpm vite build",
+    "dev": "pnpm vite",
     "format": "devtools/format.sh",
-    "setup": "yarn install; yarn run husky install",
-    "smoke": "yarn vite preview --open",
-    "ts": "yarn tsc --watch --noEmit"
+    "setup": "pnpm install; pnpm run husky install",
+    "smoke": "pnpm vite preview --open",
+    "ts": "pnpm tsc --watch --noEmit"
   }
 }
